@@ -14,7 +14,11 @@ int main() {
 
   switch(op) {
 
+<<<<<<< HEAD
     case 1: result = a + b;    // code
+=======
+    case 1:     // code
+>>>>>>> master
 
                     break;
 
