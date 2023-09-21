@@ -15,6 +15,7 @@ int main() {
   switch(op) {
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     case 1: result = a + b;    // code
 =======
     case 1:     // code
@@ -23,6 +24,13 @@ int main() {
                     break;
 
     case 2:    // code
+=======
+    case 1:     // code
+
+                    break;
+
+    case 2: result = a - b;   // code
+>>>>>>> substraction
 
                     break;
 
