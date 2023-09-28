@@ -4,46 +4,54 @@ using namespace std;
 
 int main() {
 
-  int a, b, op;   double result;
+  int a, b, op;
 
-  cout << "Введіть перше число\n";   cin >> a;
+  double result;
 
-  cout << "Введіть оператор\n1\t+\n2\t-\n3\t*\n4\t/\n\n";  cin >> op;
+  cout << "Введіть перше число\n";
 
-  cout << "Введіть друге число\n";     cin >> b;
+  cin >> a;
+
+  cout << "Введіть оператор\n1\t+\n2\t-\n3\t*\n4\t/\n\n";
+
+  cin >> op;
+
+  cout << "Введіть друге число\n";
+
+  cin >> b;
 
   switch(op) {
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-    case 1: result = a + b;    // code
-=======
-    case 1:     // code
->>>>>>> master
+    case 1:
 
-                    break;
+               result = a + b;
 
-    case 2:    // code
-=======
-    case 1:     // code
+               break;
 
-                    break;
+    case 2:
 
-    case 2: result = a - b;   // code
->>>>>>> substraction
+               result = a - b;
 
-                    break;
+               break;
 
-    case 3:     // code
+    case 3:
 
-                    break;
+               result = a * b;
 
-    case 4:     // code
+               break;
 
-                    break;
+    case 4:
 
+               result = (double) a / b;
+
+               break;
+    case 5:    
+	           result = pow(a,b)
+			   
+			   break;
   }
 
   cout << "Результат = " << result;
 
+}
 }
